@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { LocationPoint } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyCyFjjWXRj5Q--asuW4iWmYGD0hL9BWJWk" });
 
 const CALI_CENTER = { lat: 3.4516, lng: -76.5320 };
 
